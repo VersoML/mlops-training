@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "churn-predictor"
+version = "0.1.0"
+description = "Churn Prediction Project"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+    "mlflow>=3.12,<3.13",
+    "numpy>=2.0.0",
+    "pandas>=2.3.0",
+    "pyarrow>=15.0.0",
+    "pydantic>=2.9.0",
+    "scikit-learn>=1.8.0",
+    "kserve>=0.13.0",
+    "kfp>=2.16.0",
+    "evidently>=0.7,<0.8",
+    "kubeflow>=0.1",
+    "torch>=2.2.0",
+]
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = true
+
+[tool.setuptools.package-dir]
+"" = "src"
+
+[tool.uv]
+exclude-newer = "2026-06-01T00:00:00Z"
+override-dependencies = ["pyasn; sys_platform == 'no-such-os'"]
