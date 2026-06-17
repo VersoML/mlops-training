@@ -533,12 +533,14 @@ Reste à envoyer du trafic. Un petit générateur tire des lignes (avec une lég
 ```python
 import json
 import requests
+import time
 from utils.generate_churn_dataset import generate
 
 rows = generate(n=500, seed=7).drop(columns=["churned"])
 rows["nb_logins_30j"] = (rows["nb_logins_30j"] * 0.7).round().astype(int)  # dérive
 for row in json.loads(rows.to_json(orient="records")):
     requests.post("http://localhost:8001/predict", json=row)
+    time.sleep(0.1)
 ```
 
 Lancez les 4 services, envoyez le trafic ci-dessus, puis ouvrez l'UI : chaque paquet de `CAPTURE_FLUSH_SIZE` prédictions fait apparaître un nouveau point sur les panels (dérive des colonnes, dérive de `prediction`, MRR moyen). Le dashboard se remplit **en direct**, au rythme du trafic et non d'une pipeline batch. La chaîne **servir → capturer → surveiller en ligne** est bouclée.
