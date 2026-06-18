@@ -1,0 +1,12 @@
+name: hello
+
+on:
+  workflow_dispatch:
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello GitHub Actions"
+      - name: Contexte
+        run: echo "ref=${{ github.ref_name }}  commit=${{ github.sha }}  acteur=${{ github.actor }}"

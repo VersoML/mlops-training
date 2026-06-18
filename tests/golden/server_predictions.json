@@ -1,0 +1,242 @@
+[
+  {
+    "input": {
+      "tenure_days": 1497,
+      "nb_logins_30j": 18,
+      "nb_features_used": 7,
+      "plan": "Pro",
+      "support_tickets_90j": 0,
+      "mrr_eur": 61.91,
+      "has_integration": true
+    },
+    "churned": false
+  },
+  {
+    "input": {
+      "tenure_days": 1166,
+      "nb_logins_30j": 4,
+      "nb_features_used": 3,
+      "plan": "Free",
+      "support_tickets_90j": 1,
+      "mrr_eur": 0.0,
+      "has_integration": false
+    },
+    "churned": false
+  },
+  {
+    "input": {
+      "tenure_days": 481,
+      "nb_logins_30j": 17,
+      "nb_features_used": 4,
+      "plan": "Pro",
+      "support_tickets_90j": 1,
+      "mrr_eur": 57.26,
+      "has_integration": false
+    },
+    "churned": false
+  },
+  {
+    "input": {
+      "tenure_days": 1457,
+      "nb_logins_30j": 10,
+      "nb_features_used": 8,
+      "plan": "Pro",
+      "support_tickets_90j": 0,
+      "mrr_eur": 51.79,
+      "has_integration": true
+    },
+    "churned": false
+  },
+  {
+    "input": {
+      "tenure_days": 749,
+      "nb_logins_30j": 2,
+      "nb_features_used": 4,
+      "plan": "Free",
+      "support_tickets_90j": 1,
+      "mrr_eur": 0.0,
+      "has_integration": false
+    },
+    "churned": false
+  },
+  {
+    "input": {
+      "tenure_days": 751,
+      "nb_logins_30j": 13,
+      "nb_features_used": 10,
+      "plan": "Enterprise",
+      "support_tickets_90j": 0,
+      "mrr_eur": 579.49,
+      "has_integration": true
+    },
+    "churned": false
+  },
+  {
+    "input": {
+      "tenure_days": 651,
+      "nb_logins_30j": 14,
+      "nb_features_used": 12,
+      "plan": "Pro",
+      "support_tickets_90j": 1,
+      "mrr_eur": 53.96,
+      "has_integration": false
+    },
+    "churned": false
+  },
+  {
+    "input": {
+      "tenure_days": 216,
+      "nb_logins_30j": 21,
+      "nb_features_used": 5,
+      "plan": "Pro",
+      "support_tickets_90j": 0,
+      "mrr_eur": 52.66,
+      "has_integration": true
+    },
+    "churned": false
+  },
+  {
+    "input": {
+      "tenure_days": 1401,
+      "nb_logins_30j": 5,
+      "nb_features_used": 1,
+      "plan": "Free",
+      "support_tickets_90j": 1,
+      "mrr_eur": 0.0,
+      "has_integration": false
+    },
+    "churned": false
+  },
+  {
+    "input": {
+      "tenure_days": 21,
+      "nb_logins_30j": 3,
+      "nb_features_used": 3,
+      "plan": "Free",
+      "support_tickets_90j": 0,
+      "mrr_eur": 0.0,
+      "has_integration": false
+    },
+    "churned": true
+  },
+  {
+    "input": {
+      "tenure_days": 262,
+      "nb_logins_30j": 3,
+      "nb_features_used": 0,
+      "plan": "Free",
+      "support_tickets_90j": 0,
+      "mrr_eur": 0.0,
+      "has_integration": false
+    },
+    "churned": false
+  },
+  {
+    "input": {
+      "tenure_days": 345,
+      "nb_logins_30j": 9,
+      "nb_features_used": 9,
+      "plan": "Enterprise",
+      "support_tickets_90j": 0,
+      "mrr_eur": 327.85,
+      "has_integration": true
+    },
+    "churned": false
+  },
+  {
+    "input": {
+      "tenure_days": 419,
+      "nb_logins_30j": 19,
+      "nb_features_used": 6,
+      "plan": "Pro",
+      "support_tickets_90j": 0,
+      "mrr_eur": 53.19,
+      "has_integration": false
+    },
+    "churned": false
+  },
+  {
+    "input": {
+      "tenure_days": 198,
+      "nb_logins_30j": 23,
+      "nb_features_used": 12,
+      "plan": "Pro",
+      "support_tickets_90j": 1,
+      "mrr_eur": 61.58,
+      "has_integration": true
+    },
+    "churned": false
+  },
+  {
+    "input": {
+      "tenure_days": 27,
+      "nb_logins_30j": 2,
+      "nb_features_used": 7,
+      "plan": "Free",
+      "support_tickets_90j": 1,
+      "mrr_eur": 0.0,
+      "has_integration": false
+    },
+    "churned": true
+  },
+  {
+    "input": {
+      "tenure_days": 1016,
+      "nb_logins_30j": 3,
+      "nb_features_used": 2,
+      "plan": "Free",
+      "support_tickets_90j": 0,
+      "mrr_eur": 0.0,
+      "has_integration": false
+    },
+    "churned": false
+  },
+  {
+    "input": {
+      "tenure_days": 38,
+      "nb_logins_30j": 4,
+      "nb_features_used": 2,
+      "plan": "Free",
+      "support_tickets_90j": 1,
+      "mrr_eur": 0.0,
+      "has_integration": false
+    },
+    "churned": true
+  },
+  {
+    "input": {
+      "tenure_days": 122,
+      "nb_logins_30j": 3,
+      "nb_features_used": 4,
+      "plan": "Free",
+      "support_tickets_90j": 0,
+      "mrr_eur": 0.0,
+      "has_integration": false
+    },
+    "churned": true
+  },
+  {
+    "input": {
+      "tenure_days": 171,
+      "nb_logins_30j": 12,
+      "nb_features_used": 5,
+      "plan": "Enterprise",
+      "support_tickets_90j": 1,
+      "mrr_eur": 581.72,
+      "has_integration": false
+    },
+    "churned": true
+  },
+  {
+    "input": {
+      "tenure_days": 32,
+      "nb_logins_30j": 4,
+      "nb_features_used": 5,
+      "plan": "Free",
+      "support_tickets_90j": 2,
+      "mrr_eur": 0.0,
+      "has_integration": false
+    },
+    "churned": true
+  }
+]
